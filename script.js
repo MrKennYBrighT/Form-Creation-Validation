@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Form and feedback division selection
+    // Form selection
     const form = document.getElementById("registration-form");
+
+    // Feedback division selection
     const feedbackDiv = document.getElementById("form-feedback");
 
     // Form submission event listener
