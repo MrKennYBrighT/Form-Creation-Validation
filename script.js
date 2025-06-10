@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
     // Form selection
     const form = document.getElementById("registration-form");
 
@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const feedbackDiv = document.getElementById("form-feedback");
 
     // Form submission event listener
-    form.addEventListener("submit", (event) => {
+    form.addEventListener("submit", function (event) {
         event.preventDefault(); // Prevent default form submission
 
         // Retrieve and trim user inputs
